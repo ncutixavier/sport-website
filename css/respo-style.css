@@ -1,0 +1,183 @@
+/* Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px) {
+  
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) { */
+    
+/* }  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+}  */ 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+max-width: 91%;
+    }
+
+    #search{
+        display: none;
+    }
+
+    #logo h1{
+        text-align: left;
+    }
+
+    #navbar{
+        display: none;
+        width: 100%;
+        margin: .7em 0;
+    }
+
+    #navbar ul{
+        display: flex;
+        flex-direction: column;
+        /* width: 80%; */
+        margin: 0 .5em;
+    }
+
+    #navbar ul li{
+        padding: .8em 0;
+        text-align: left;
+        border-bottom: 3px solid rgb(15, 173, 15);
+    }
+
+    #navbar ul li a:hover{
+        border: none;
+        background-color: white;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: space-between;
+       align-items: center; 
+        width: 100%;
+    }
+
+    #logo i{
+        display: block;
+        font-size: 2.3em;
+        margin-top: 6px;
+    }
+
+    #background-content{
+        /* position: absolute; */
+        right: 4px;
+        margin-top: 13%;
+    }
+    
+    #background-content p{
+        font-size: .5em;
+    }
+    
+    #background-content h1{
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+    #background-content a{
+        padding: 9px 12px;
+        border-radius: 6px;;
+        margin-top: 12px;
+        
+    }
+
+    .bg-img{
+        background-size: 100% 100%;
+        height: 50vh;
+    }
+
+    #service{
+        display: flex;
+        flex-direction: column;
+    }
+    #service-card{
+        background-color: white;
+        padding: .8em 0;
+        width: 100%;
+        text-align: center;
+        box-shadow: 1px 5px 8px silver;
+        margin-bottom: 1em;
+        
+    }
+
+    #myFooter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #myFooter div{
+        width: 100%;
+        margin-bottom: 1.5em;
+        /* border-bottom: 1px solid grey; */
+    }
+
+    #myfooter #social{
+        border-bottom: 1px solid grey;
+    }
+
+    .under-back-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #column1,#column2{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    #column2{
+        display: none;
+    }
+
+
+ .title-bigger{
+        letter-spacing: 1;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    .video-display{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        padding: 2em 0; 
+    }
+
+    div iframe{
+        height: 300px;
+    }
+
+    #about-us{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-us div{
+        width: 100%;
+        padding: .7em 0;
+    }
+
+    .about-us-categ{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mycateg{
+        width: 100%;
+        padding: 1em 0;
+    }
+}
