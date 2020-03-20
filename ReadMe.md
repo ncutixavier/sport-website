@@ -1,7 +1,7 @@
-_____________________Sport website________________________
+_____________________Sport website template________________________
 
 Html, css and simple javascript
 
-Visit the web through https://sportwebtemplate.netlify.com/
+Visit the web through this link https://sportwebtemplate.netlify.com/
 
 ___________________________________________________________
